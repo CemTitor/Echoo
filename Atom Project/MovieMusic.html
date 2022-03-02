@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+  <title>Echoo</title>
+  <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <style>
+    .list{
+      line-height:50px;
+      max-height: 800px;
+      min-height: 800px;
+    }
+    body {
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    header {
+      background-size: cover;
+      color: white;
+    }
+    #rightbox {
+      float: right;
+      margin-right: 15px;
+      max-width: 350px;
+    }
+    #right {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-left: 30px;
+    }
+    .righthead {
+      text-decoration: underline;
+    }
+    #rightelements {
+      list-style-type: circle;
+      display: block;
+      padding: 10px 40px 10px;
+    }
+    #rightelement {
+      padding-bottom: 10px;
+    }
+    a {
+      color: #FFFFFF;
+      font-weight: 200;
+      text-decoration: none;
+    }
+    #category {
+      font-family: CASTELLAR;
+    }
+    .middlebox {
+      text-align: center;
+      float:left;
+      margin-left:20px;
+      width:500px;
+      font-size:20px;
+    }
+    .leftbox{
+      float:left;
+      margin-left:20px;
+      width:500px;
+      font-size:20px;
+      text-align:center;
+    }
+    #Menu {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+    }
+    #logo {
+      margin: 0 490px;
+      max-width: 450px;
+      min-width: 450px;
+      max-height: 180px;
+      min-height: 180px;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+    img {
+      margin: 0px 0px 0px 0px;
+      border: 15px solid black;
+      border-radius: 20px;
+    }
+    #header {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      font-family: 'Londrina Shadow', cursive;
+    }
+    #headerelement {
+      font-size: 22px;
+      padding: 0px 20px 0px 20px;
+      display: inline;
+      color: #bbbbbb;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 10px auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-family: 'Gupter', serif;
+      font-size: 18px;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="Echoo.html"><img id="logo" src="images/logo2.PNG"></a>
+    <ul id = "header">
+      <li id = "headerelement"><a id="Menu" href="Home.html">Home</a></li>
+      <li id = "headerelement"><a id="Menu" href="Categories.html">Categories</a></li>
+      <li id = "headerelement"><a id="Menu" href="News.html">News</a></li>
+      <li id = "headerelement"><a id="Menu" href="Concerts.html">Concerts</a></li>
+      <li id = "headerelement"><a id="Menu" href="Contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <div id = "boxes">
+    <div id = "rightbox">
+      <article id = "right">
+        <h2 class="righthead">Upcoming Concerts</h2>
+        <ul id = "rightelements">
+          <li id = "rightelement">Mor ve Ötesi - İzmir</li>
+          <li id = "rightelement">Scorpions - Amsterdam</li>
+          <li id = "rightelement">Athena - Antalya</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Upcoming Albums</h2>
+        <ul id = "rightelement">
+          <li id = "rightelement">Circa waves - Happy</li>
+          <li id = "rightelement">Georgia - Seeking Thrills</li>
+          <li id = "rightelement">Wolf Parade - Thin Mind</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Song of The Day</h2>
+        <ul id = "rightelement">
+          <li>Pink Floyd - Shine on You Crazy Diamond</li>
+        </ul>
+        <iframe width="280" height="165" src="https://www.youtube.com/embed/cWGE9Gi0bB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </div>
+    <div class = "middlebox">
+      <article>
+          <h2>New Recommended</h2>
+    </article>
+    <article >
+      <ol class="list">
+        <li>Brother Love’s Travelling Salvation Show – Neil Diamond (Once Upon A Time In Hollywood)</li>
+        <li>Into The Unknown – Idina Menzel (Frozen II)</li>
+        <li>Slip Away – Perfume Genius (Booksmart)</li>
+        <li>I Got 5 On It – Luniz (Us)</li>
+        <li>The Promised Land – Bruce Springsteen (Blinded By The Light)</li>
+        <li>Saturday Night’s Alright For Fighting – Taron Egerton (Rocketman)</li>
+        <li>In The Still Of The Night – Fred Parris And The Five Satins (The Irishman)</li>
+        <li>Portals – Alan Silvestri (Avengers: Endgame)</li>
+        <li>Hologram (Smoke And Mirrors) – Madilyn Bailey (Vox Lux)</li>
+        <li>I Punched Keanu Reeves – Hello Peril (Always Be My Maybe)</li>
+      </ol>
+    </article>
+    </div>
+    <div class="leftbox">
+      <article>
+        <h2>Top 10</h2>
+      </article>
+      <article>
+        <ol class="list">
+          <li>My Heart Will Go On - Titanic (1997)</li>
+          <li>Somewhere Over The Rainbow - The Wizard Of Oz (1939)</li>
+          <li>Eye Of The Tiger - Rocky III (1982)</li>
+          <li>Mrs. Robinson - The Graduate (1967)</li>
+          <li>I’ve Had The Time Of My Life - Dirty Dancing (1987)</li>
+          <li>Ghostbusters - Ghostbusters (1984)</li>
+          <li>If You Leave - Pretty In Pink (1986)</li>
+          <li>Everything I Do - Robin Hood Prince Of Thieves (1991)</li>
+          <li>Cry Little Sister - The Lost Boys (1987)</li>
+          <li>Let It Go - Frozen (2013)</li>
+        </ol>
+      </article>
+      </div>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

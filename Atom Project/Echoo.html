@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<head>
+  <title>Echoo</title>
+  <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    header {
+      background-size: cover;
+      color: white;
+    }
+    #Category {
+      display: inline-flex;
+      padding: 10px;
+      margin: 2px 3px;
+      border: 2px solid;
+      border-color: black;
+      border-radius: 4px;
+      background-color: white;
+      max-width: 120px;
+      min-width: 120px;
+      max-height: 50px;
+      min-height: 50px;
+    }
+    #category {
+      font-size: 25px;
+      font-family: 'Gupter', serif;
+      color: black;
+      text-decoration: none;
+      text-align: left;
+    }
+    #rightbox {
+      float: right;
+      margin-right: 15px;
+      max-width: 350px;
+    }
+    #right {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-left: 30px;
+    }
+    #rightelements {
+      list-style-type: circle;
+      display: block;
+      padding: 10px 40px 10px;
+    }
+    #rightelement {
+      padding-bottom: 10px;
+    }
+    .middlehead {
+      text-decoration: underline;
+      font-family: 'Karla', sans-serif;
+      font-weight: lighter;
+      font-size: 30px;
+      color: white;
+    }
+    .righthead {
+      text-decoration: underline;
+    }
+    #Menu {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+    }
+    #logo {
+      margin: 0 490px;
+      max-width: 450px;
+      min-width: 450px;
+      max-height: 180px;
+      min-height: 180px;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+    #header {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      font-family: 'Londrina Shadow', cursive;
+    }
+    #headerelement {
+      font-size: 22px;
+      padding: 0px 20px 0px 20px;
+      display: inline;
+      color: #bbbbbb;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 10px auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-family: 'Gupter', serif;
+      font-size: 20px;
+    }
+    #RIM {
+      text-decoration: none;
+      color: black;
+    }
+    #leftbox {
+      float: left;
+    }
+    img {
+      margin: 0px 0px 0px 0px;
+      border: 7px solid rgba(0, 0, 0, 0.8);
+      border-radius: 12px;
+    }
+    #sm2 {
+      max-width: 440px;
+      max-height: 290px;
+      min-height: 290px;
+    }
+    #titleofnew {
+      color: white;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="Echoo.html"><img id="logo" src="images/logo2.PNG"></a>
+    <ul id = "header">
+      <li id = "headerelement"><a id="Menu" href="Home.html">Home</a></li>
+      <li id = "headerelement"><a id="Menu" href="Categories.html">Categories</a></li>
+      <li id = "headerelement"><a id="Menu" href="News.html">News</a></li>
+      <li id = "headerelement"><a id="Menu" href="Concerts.html">Concerts</a></li>
+      <li id = "headerelement"><a id="Menu" href="Contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <div id = "boxes">
+    <div id="leftbox">
+      <div class="leftbox">
+        <a href="S&M2.html"><img id="sm2" src="images/S&M 2 image.jpg"></a>
+      </div>
+    </div>
+    <div id = "rightbox">
+      <article id = "right">
+        <h2 class="righthead">Upcoming Concerts</h2>
+        <ul id = "rightelements">
+          <li id = "rightelement">Mor ve Ötesi - İzmir</li>
+          <li id = "rightelement">Scorpions - Amsterdam</li>
+          <li id = "rightelement">Athena - Antalya</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Upcoming Albums</h2>
+        <ul id = "rightelement">
+          <li id="rightelement">Circa waves - Happy</li>
+          <li id = "rightelement">Georgia - Seeking Thrills</li>
+          <li id = "rightelement">Wolf Parade - Thin Mind</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Song of The Day</h2>
+        <ul id = "rightelement">
+          <li>Pink Floyd - Shine on You Crazy Diamond</li>
+        </ul>
+        <iframe width="280" height="165" src="https://www.youtube.com/embed/cWGE9Gi0bB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </div>
+    <div id = "middlebox">
+      <article id = "middle">
+        <a href="S&M2.html" id="titleofnew"><h2 class="middlehead">S&M 2</h2></a>
+        <p>Symphony Orchestra of San Francisco and Metallica (S&M), reunited! The idea of S&M was creative and fans did love the concert. Therefore, Metallica and the orchestra want to make a new concert. Although, they think a new brilliant idea. They will film the concert and it will be on saloons for fans who can't see it live.</p>
+        <button><a href="S&M2.html" id="RIM">Read it more</a></button>
+      </article>
+      <article id="categories">
+        <h2><a href="Categories.html" class="middlehead">Categories</a></h2>
+        <div class="firstLine">
+          <a href="GlobalTop10.html" id="category"><li id="Category">Global Top 10</li></a>
+          <a href="Rock.html" id="category"><li id="Category">Rock</li></a>
+          <a href="Metal.html" id="category"><li id="Category">Metal</li></a>
+        </div>
+        <div class="secondLine">
+          <a href="Classical.html" id="category"><li id="Category">Classical</li></a>
+          <a href="Rap.html" id="category"><li id="Category">Rap</li></a>
+          <a href="Pop.html" id="category"><li id="Category">Pop</li></a>
+        </div>
+        <div class="thirdLine">
+          <a href="Jazz.html" id="category"><li id="Category">Jazz</li></a>
+          <a href="Blues.html" id="category"><li id="Category">Blues</li></a>
+          <a href="MovieMusic.html" id="category"><li id="Category">Movie Music</li></a>
+        </div>
+      </article>
+    </div>
+  </div>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

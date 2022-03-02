@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+  <title>Echoo</title>
+  <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #4C4C4C;
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    header {
+      background-size: cover;
+      color: white;
+    }
+    #rightbox {
+      float: right;
+      margin-right: 15px;
+      max-width: 350px;
+    }
+    #right {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-left: 30px;
+    }
+    #middle {
+      padding-left: 100px;
+      padding-right: 300px;
+      margin-left: 100px;
+    }
+    .middlehead {
+      text-decoration: underline;
+      font-family: 'Karla', sans-serif;
+      font-weight: lighter;
+      font-size: 50px;
+    }
+    .righthead {
+      text-decoration: underline;
+    }
+    #rightelements {
+      list-style-type: circle;
+      display: block;
+      padding: 10px 40px 10px;
+    }
+    #rightelement {
+      padding-bottom: 10px;
+    }
+    #Menu {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+    }
+    #logo {
+      margin: 0 490px;
+      max-width: 450px;
+      min-width: 450px;
+      max-height: 180px;
+      min-height: 180px;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+    #header {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      font-family: 'Londrina Shadow', cursive;
+    }
+    #headerelement {
+      font-size: 22px;
+      padding: 0px 20px 0px 20px;
+      display: inline;
+      color: #bbbbbb;
+    }
+    #snmimg {
+      max-height: 200px;
+      min-height: 200px;
+      max-width: 500px;
+      min-width: 500px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 10px auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-family: 'Gupter', serif;
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="Echoo.html"><img id="logo" src="images/logo2.PNG"></a>
+    <ul id = "header">
+      <li id = "headerelement"><a id="Menu" href="Home.html">Home</a></li>
+      <li id = "headerelement"><a id="Menu" href="Categories.html">Categories</a></li>
+      <li id = "headerelement"><a id="Menu" href="News.html">News</a></li>
+      <li id = "headerelement"><a id="Menu" href="Concerts.html">Concerts</a></li>
+      <li id = "headerelement"><a id="Menu" href="Contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <div id = "boxes">
+    <div id = "rightbox">
+      <article id = "right">
+        <h2 class="righthead">Upcoming Concerts</h2>
+        <ul id = "rightelements">
+          <li id = "rightelement">Mor ve Ötesi - İzmir</li>
+          <li id = "rightelement">Scorpions - Amsterdam</li>
+          <li id = "rightelement">Athena - Antalya</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Upcoming Albums</h2>
+        <ul id = "rightelement">
+          <li id="rightelement">Circa waves - Happy</li>
+          <li id = "rightelement">Georgia - Seeking Thrills</li>
+          <li id = "rightelement">Wolf Parade - Thin Mind</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Song of The Day</h2>
+        <ul id = "rightelement">
+          <li>Pink Floyd - Shine on You Crazy Diamond</li>
+        </ul>
+        <iframe width="280" height="165" src="https://www.youtube.com/embed/cWGE9Gi0bB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </div>
+    <div id="middlebox">
+      <article id="middle">
+        <h2 class="middlehead">S&M 2</h2>
+        <p id="content">Metallica are quite conscious of their story, always making sure they do something unique to celebrate milestone anniversaries for their past triumphs. Last night (September 6) in San Francisco, the group saluted the 20th anniversary of their S&M orchestral live album wiht the first of two S&M 2 concerts.</p>
+        <p id="content">Performing on a revolving circular stage of the San Francisco Symphony and conductor Edwin Outwater. It was the symphony who led the charge, performing "The Ecstasy of Gold", which has hitorically served as the opening salvo for Metallica's concerts before they hit the stage.</p>
+        <div class="snm">
+          <img id="snmimg" src="images/S&M 2 image.jpg">
+        </div>
+      </article>
+    </div>
+</body>

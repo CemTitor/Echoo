@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>
+  <title>Echoo</title>
+  <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <style>
+    .list{
+      line-height:50px;
+    }
+    body {
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    header {
+      background-size: cover;
+      color: white;
+    }
+    #rightbox {
+      float: right;
+      margin-right: 15px;
+      max-width: 350px;
+    }
+    #right {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-left: 30px;
+    }
+    .righthead {
+      text-decoration: underline;
+    }
+    #rightelements {
+      list-style-type: circle;
+      display: block;
+      padding: 10px 40px 10px;
+    }
+    #rightelement {
+      padding-bottom: 10px;
+    }
+    a {
+      color: #FFFFFF;
+      font-weight: 200;
+      text-decoration: none;
+    }
+    #category {
+      font-family: CASTELLAR;
+    }
+    .middlebox {
+      text-align: center;
+      float:left;
+      margin-left:20px;
+      width:500px;
+      font-size:20px;
+    }
+    .leftbox{
+      float:left;
+      margin-left:20px;
+      width:500px;
+      font-size:20px;
+      text-align:center;
+    }
+    #Menu {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+    }
+    #logo {
+      margin: 0 490px;
+      max-width: 450px;
+      min-width: 450px;
+      max-height: 180px;
+      min-height: 180px;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+    img {
+      margin: 0px 0px 0px 0px;
+      border: 15px solid black;
+      border-radius: 20px;
+    }
+    #header {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      font-family: 'Londrina Shadow', cursive;
+    }
+    #headerelement {
+      font-size: 22px;
+      padding: 0px 20px 0px 20px;
+      display: inline;
+      color: #bbbbbb;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 10px auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-family: 'Gupter', serif;
+      font-size: 18px;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="Echoo.html"><img id="logo" src="images/logo2.PNG"></a>
+    <ul id = "header">
+      <li id = "headerelement"><a id="Menu" href="Home.html">Home</a></li>
+      <li id = "headerelement"><a id="Menu" href="Categories.html">Categories</a></li>
+      <li id = "headerelement"><a id="Menu" href="News.html">News</a></li>
+      <li id = "headerelement"><a id="Menu" href="Concerts.html">Concerts</a></li>
+      <li id = "headerelement"><a id="Menu" href="Contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <div id = "boxes">
+    <div id = "rightbox">
+      <article id = "right">
+        <h2 class="righthead">Upcoming Concerts</h2>
+        <ul id = "rightelements">
+          <li id = "rightelement">Mor ve Ötesi - İzmir</li>
+          <li id = "rightelement">Scorpions - Amsterdam</li>
+          <li id = "rightelement">Athena - Antalya</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Upcoming Albums</h2>
+        <ul id = "rightelement">
+          <li id = "rightelement">Circa waves - Happy</li>
+          <li id = "rightelement">Georgia - Seeking Thrills</li>
+          <li id = "rightelement">Wolf Parade - Thin Mind</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Song of The Day</h2>
+        <ul id = "rightelement">
+          <li>Pink Floyd - Shine on You Crazy Diamond</li>
+        </ul>
+        <iframe width="280" height="165" src="https://www.youtube.com/embed/cWGE9Gi0bB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </div>
+    <div class = "middlebox">
+      <article>
+          <h2>New Recommended</h2>
+    </article>
+    <article >
+      <ol class="list">
+        <li>Fear Inoculum - TOOL</li>
+        <li>Lover, Leaver - Greta Van Fleet</li>
+        <li>7empest - TOOL</li>
+        <li>Leviathan - Volbeat</li>
+        <li>Breaking down - I Prevail</li>
+        <li>Always There - Greta Van Fleet</li>
+        <li>When the Curtain Falls - Greta Van Fleet</li>
+        <li>Father of All - Green Day</li>
+        <li>Solway Firth - Slipknot</li>
+        <li>Lo/Hi - The Black Keysl</li>
+      </ol>
+    </article>
+    </div>
+    <div class="leftbox">
+      <article>
+        <h2>Top 10</h2>
+      </article>
+      <article>
+        <ol class="list">
+          <li>Bohemian Rhapsody - Queen</li>
+          <li>Stairway to Heaven - Led Zeppelin</li>
+          <li>Imagine - John Lennon</li>
+          <li>Smells Like Teen Spirit - Nirvana</li>
+          <li>One - Metallica</li>
+          <li>Hotel California - Eagles</li>
+          <li>Comfortably Numb - Pink Floyd</li>
+          <li>Hey Jude - The Beatles</li>
+          <li>Sweet Child O'Mine - Guns N' Roses</li>
+          <li>November Rain - Guns N' Roses</li>
+        </ol>
+      </article>
+      </div>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

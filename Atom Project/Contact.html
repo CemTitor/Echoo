@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<head>
+  <title>Echoo</title>
+  <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    header {
+      background-size: cover;
+      color: white;
+    }
+    input {
+      display: block;
+      margin: 5px auto;
+    }
+    #name {
+      border: 2px solid;
+      border-color: rgba(0, 0, 0, 0.7);
+      border-radius: 6px;
+      max-width: 800px;
+      min-width: 800px;
+      max-height: 50px;
+      min-height: 50px;
+      font-size: 20px;
+    }
+    #e-mail {
+      border: 2px solid;
+      border-color: rgba(0, 0, 0, 0.7);
+      border-radius: 6px;
+      max-width: 800px;
+      min-width: 800px;
+      max-height: 50px;
+      min-height: 50px;
+      font-size: 20px;
+    }
+    #message {
+      border: 2px solid;
+      border-color: rgba(0, 0, 0, 0.7);
+      border-radius: 6px;
+      max-width: 800px;
+      min-width: 800px;
+      max-height: 200px;
+      min-height: 200px;
+      font-size: 20px;
+      margin-right: 510px;
+    }
+    #submit {
+      font-size: 40px;
+      float: right;
+      margin-right: 500px;
+      margin-top: 60px;
+      margin-bottom: 70px;
+      box-sizing: border-box;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    #submit:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    #rightbox {
+      float: right;
+      margin-right: 15px;
+      max-width: 350px;
+    }
+    #right {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-left: 30px;
+    }
+    .righthead {
+      text-decoration: underline;
+    }
+    #rightelements {
+      list-style-type: circle;
+      display: block;
+      padding: 10px 40px 10px;
+    }
+    #rightelement {
+      padding-bottom: 10px;
+    }
+    #Menu {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+    }
+    .center {
+      text-align: center;
+      font-family: 'Gupter', serif;
+      font-size: 60px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: rgba(185, 185, 185, 0.9);
+      margin-top: -30px;
+    }
+    #logo {
+      margin: 0 490px;
+      max-width: 450px;
+      min-width: 450px;
+      max-height: 180px;
+      min-height: 180px;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+    #header {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      font-family: 'Londrina Shadow', cursive;
+    }
+    #headerelement {
+      font-size: 22px;
+      padding: 0px 20px 0px 20px;
+      display: inline;
+      color: #bbbbbb;
+    }
+    h4 {
+      font-family: 'Gupter', serif;
+      font-size: 35px;
+      letter-spacing: 1px;
+      text-align: left;
+      color: rgba(185, 185, 185, 0.9);
+      margin-left: 125px;
+      margin-bottom: -0.2px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 10px auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-family: 'Gupter', serif;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="Echoo.html"><img id="logo" src="images/logo2.PNG"></a>
+    <ul id = "header">
+      <li id = "headerelement"><a id="Menu" href="Home.html">Home</a></li>
+      <li id = "headerelement"><a id="Menu" href="Categories.html">Categories</a></li>
+      <li id = "headerelement"><a id="Menu" href="News.html">News</a></li>
+      <li id = "headerelement"><a id="Menu" href="Concerts.html">Concerts</a></li>
+      <li id = "headerelement"><a id="Menu" href="Contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <div id = "boxes">
+    <div id = "rightbox">
+      <article id = "right">
+        <h2 class="righthead">Upcoming Concerts</h2>
+        <ul id = "rightelements">
+          <li id = "rightelement">Mor ve Ötesi - İzmir</li>
+          <li id = "rightelement">Scorpions - Amsterdam</li>
+          <li id = "rightelement">Athena - Antalya</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Upcoming Albums</h2>
+        <ul id = "rightelement">
+          <li id="rightelement">Circa waves - Happy</li>
+          <li id = "rightelement">Georgia - Seeking Thrills</li>
+          <li id = "rightelement">Wolf Parade - Thin Mind</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Song of The Day</h2>
+        <ul id = "rightelement">
+          <li>Pink Floyd - Shine on You Crazy Diamond</li>
+        </ul>
+        <iframe width="280" height="165" src="https://www.youtube.com/embed/cWGE9Gi0bB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </div>
+    <div class="center">
+      <h3>CONTACT</h3>
+      <div class="Name">
+        <h4>Your name:</h2>
+        <input type="text" id="name" placeholder="Your name">
+      </div>
+      <div class="Email">
+        <h4>Your e-mail:</h4>
+        <input type="email" id="e-mail" placeholder="Example: hello@echo.com">
+      </div>
+      <div class="Text">
+        <h4>Message:</h4>
+        <input type="message" id="message">
+      </div>
+      <input type="submit" id="submit">
+    </div>
+  </div>
+</body>

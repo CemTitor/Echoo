@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<head>
+  <title>Echoo</title>
+  <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap" rel="stylesheet">
+  <style>
+    .list{
+      line-height:50px;
+    }
+    body {
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    header {
+      background-size: cover;
+      color: white;
+    }
+    #rightbox {
+      float: right;
+      margin-right: 15px;
+      max-width: 350px;
+    }
+    #right {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-left: 30px;
+    }
+    .righthead {
+      text-decoration: underline;
+    }
+    #rightelements {
+      list-style-type: circle;
+      display: block;
+      padding: 10px 40px 10px;
+    }
+    #rightelement {
+      padding-bottom: 10px;
+    }
+    a {
+      color: #FFFFFF;
+      font-weight: 200;
+      text-decoration: none;
+    }
+    #category {
+      font-family: CASTELLAR;
+    }
+    #başlık{
+        max-width: 1000px;
+        min-width: 1000px;
+        text-align: center;
+    }
+    #liste{
+        max-width: 1000px;
+        min-width:1000px;
+    }
+    .leftbox{
+      float:left;
+      margin-left:20px;
+      width:500px;
+      font-size:30px;
+      text-align:center;
+    }
+    #Menu {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+    }
+    #logo {
+      margin: 0 490px;
+      max-width: 450px;
+      min-width: 450px;
+      max-height: 180px;
+      min-height: 180px;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+    img {
+      margin: 0px 0px 0px 0px;
+      border: 15px solid black;
+      border-radius: 20px;
+    }
+    #header {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      font-family: 'Londrina Shadow', cursive;
+    }
+    #headerelement {
+      font-size: 22px;
+      padding: 0px 20px 0px 20px;
+      display: inline;
+      color: #bbbbbb;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 10px auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-family: helvetica;
+
+    }
+    #top10{
+        max-width: 650px;
+        min-width: 650px;
+        text-align: center;
+        margin-left: 160px;
+
+    }
+    #foto{
+        margin-left:700px;
+        margin-top: -62px;
+        max-width: 150px;
+        min-width: 150px;
+        max-height: 100px;
+        min-height: 100px;
+    }
+    p {
+      font-family: 'Gupter', serif;
+      font-size: 18px;
+    }
+    #listt{
+        max-width: 500px;
+        min-width: 500px;
+        margin-left: 200px;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="Echoo.html"><img id="logo" src="images/logo2.PNG"></a>
+    <ul id = "header">
+      <li id = "headerelement"><a id="Menu" href="Home.html">Home</a></li>
+      <li id = "headerelement"><a id="Menu" href="Categories.html">Categories</a></li>
+      <li id = "headerelement"><a id="Menu" href="News.html">News</a></li>
+      <li id = "headerelement"><a id="Menu" href="Concerts.html">Concerts</a></li>
+      <li id = "headerelement"><a id="Menu" href="Contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <div id = "boxes">
+    <div id = "rightbox">
+      <article id = "right">
+        <h2 class="righthead">Upcoming Concerts</h2>
+        <ul id = "rightelements">
+          <li id = "rightelement">Mor ve Ötesi - İzmir</li>
+          <li id = "rightelement">Scorpions - Amsterdam</li>
+          <li id = "rightelement">Athena - Antalya</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Upcoming Albums</h2>
+        <ul id = "rightelement">
+          <li id="rightelement">Circa waves - Happy</li>
+          <li id = "rightelement">Georgia - Seeking Thrills</li>
+          <li id = "rightelement">Wolf Parade - Thin Mind</li>
+        </ul>
+      </article>
+      <article id = "right">
+        <h2 class="righthead">Song of The Day</h2>
+        <ul id = "rightelement">
+          <li>Pink Floyd - Shine on You Crazy Diamond</li>
+        </ul>
+        <iframe width="280" height="165" src="https://www.youtube.com/embed/cWGE9Gi0bB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </div>
+    <div class="leftbox">
+      <article id="başlık">
+        <h2 id="top10">Top 10</h2 >
+      </article>
+      <article id="liste">
+        <ol class="list">
+            <li id="listt">Bohemian Rhapsody - Queen</li>
+           <a href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ"><img src="images/queen albüm.jpg" id="foto"></a>
+            <li id="listt">Time - Pink Floyd</li>
+            <a href="https://www.youtube.com/watch?v=JwYX52BP2Sk"><img src="images/time.jpg" id="foto"></a>
+            <li id="listt">I am the Highway - Audioslave</li>
+            <a href="https://www.youtube.com/watch?v=cy2ZUGc2mSs"><img src="images/audioslave.jpg" id="foto"></a>
+            <li id="listt">Eye of the Tiger - Survivor</li>
+            <a href="https://www.youtube.com/watch?v=btPJPFnesV4"><img src="images/eyeofthe.jpg" id="foto"></a>
+            <li id="listt">Nothing Else Matters - Metallica</li>
+            <a href="https://www.youtube.com/watch?v=tAGnKpE4NCI"><img src="images/nothing.jpg" id="foto"></a>
+            <li id="listt">Zombie - The Cranberries</li>
+            <a href="https://www.youtube.com/watch?v=6Ejga4kJUts"><img src="images/zombie.jpg" id="foto"></a>
+            <li id="listt">Soldier of Fortune - Deep Purple</li>
+            <a href="https://www.youtube.com/watch?v=06j9QR7XjLA"><img src="images/soldier.jpg" id="foto"></a>
+            <li id="listt">Layla - Eric Clapton</li>
+            <a href="https://www.youtube.com/watch?v=fX5USg8_1gA"><img src="images/layla.jpg" id="foto"></a>
+            <li id="listt">Core of Nature - Midlake</li>
+            <a href="https://www.youtube.com/watch?v=K60mW-Ajm5Y"><img src="images/nature.jpg" id="foto"></a>
+            <li id="listt">Simple Man - Lynyrd Skynyrd</li>
+            <a href="https://www.youtube.com/watch?v=sMmTkKz60W8"><img src="images/simple man.jpg" id="foto"></a>
+        </ol>
+      </article>
+      </div>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
